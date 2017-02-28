@@ -52,7 +52,7 @@ void nahraj() {
 		string name = "Img_" + std::to_string(count) + ".bmp";
 		imwrite("C:\\OpenCV\\video\\" + name, image);
 		++count;
-		if (count > 600)
+		if (count > 100)
 			check = false;
 	}
 }
@@ -75,7 +75,7 @@ void prehraj() {
 }
 
 int main(void) {
-	//nahraj();
+	nahraj();
 	prehraj();
 	return 0;
 }

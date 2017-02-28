@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Test\x64\Debug\Test.exe
-  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Test\x64\Debug\Test.pdb (Full PDB)
+  LINK : C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.exe not found or not built by the last incremental link; performing full link
+  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.exe
+  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.pdb (Full PDB)

@@ -1,4 +1,12 @@
 ﻿  Source.cpp
-  LINK : C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.exe not found or not built by the last incremental link; performing full link
-  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.exe
-  Test.vcxproj -> C:\Users\Timko\Documents\Visual Studio 2015\Projects\Vizualne_systemy\Test\x64\Debug\Test.pdb (Full PDB)
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(83): error C3861: 'getImage': identifier not found
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(88): error C2065: 'max_count': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(89): error C2065: 'qlevel': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(91): error C2065: 'minDist': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(98): error C2065: 'feature_prev': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(99): error C3861: 'getImage': identifier not found
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(104): error C2065: 'points_prev': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(105): error C2065: 'points_next': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(106): error C2065: 'status': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(108): error C2065: 'err': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\vizualne_systemy\test\test\source.cpp(110): error C3861: 'stopTracking': identifier not found

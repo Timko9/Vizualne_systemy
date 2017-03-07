@@ -13,7 +13,8 @@
 #include <opencv2\highgui\highgui.hpp>
 #include <string>
 #include <stdio.h>
-
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 // ************* program, kde nacita obrazok a zobrazi ho ************/
 /*
@@ -74,8 +75,45 @@ void prehraj() {
 	}
 }
 
+void optiflow() {
+	// Obtain first image and set up two feature vectors
+	cv::Mat image_prev, image_next;
+	std::vector<cv::Point> features_prev, features_next;
+
+	image_next = getImage();
+
+	// Obtain initial set of features
+	cv::goodFeaturesToTrack(image_next, // the image 
+		features_next,   // the output detected features
+		max_count,  // the maximum number of features 
+		qlevel,     // quality level
+		minDist     // min distance between two features
+	);
+
+	// Tracker is initialised and initial features are stored in features_next
+	// Now iterate through rest of images
+	for (;;)
+	{
+		image_prev = image_next.clone();
+		feature_prev = features_next;
+		image_next = getImage();  // Get next image
+
+								  // Find position of feature in new image
+		cv::calcOpticalFlowPyrLK(
+			image_prev, image_next, // 2 consecutive images
+			points_prev, // input point positions in first im
+			points_next, // output point positions in the 2nd
+			status,    // tracking success
+			err      // tracking error
+		);
+
+		if (stopTracking()) break;
+	}
+}
+
 int main(void) {
-	nahraj();
-	prehraj();
+	//nahraj();
+	//prehraj();
+	optiflow();
 	return 0;
 }

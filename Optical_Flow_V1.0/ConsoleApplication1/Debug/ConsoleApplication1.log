@@ -1,0 +1,23 @@
+﻿  Source.cpp
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(2): error C2653: 'cv': is not a class or namespace name
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(2): error C2146: syntax error: missing ';' before identifier 'image_prev'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(3): error C2039: 'vector': is not a member of 'std'
+  c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\predefined c++ types (compiler internal)(208): note: see declaration of 'std'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(3): error C2143: syntax error: missing ';' before '<'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(3): error C2653: 'cv': is not a class or namespace name
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(5): error C3861: 'getImage': identifier not found
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(8): error C2653: 'cv': is not a class or namespace name
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(9): error C2065: 'features_next': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(10): error C2065: 'max_count': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(11): error C2065: 'qlevel': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(13): error C2065: 'minDist': undeclared identifier
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(13): note: The initializer contains too many elements
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(17): error C2059: syntax error: 'for'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(17): error C2143: syntax error: missing ')' before ';'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(17): error C2059: syntax error: ')'
+c:\users\timko\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\source.cpp(18): error C2447: '{': missing function header (old-style formal list?)
